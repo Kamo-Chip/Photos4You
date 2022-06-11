@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: #fff;
+    font-family: "Roboto", arial;
+    overflow-x: hidden;
+    background-image: url("https://studiohire.com/members2/5969/StudioHire.com%20WIMBLEDON2LOW.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+#header{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#slideshow{
+    height: 30rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#span-title{
+    color:#ec0000;
+}
+#image{
+    height: 100%;
+}
+
+#slogan{
+    font-family: "Lobster", arial;
+}
+
+#list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 .5em;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #ec0000;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#slogan{
+    font-size: 4rem;
+}
+
+#description-container{
+    box-sizing: border-box;
+    width: 80%;
+    padding: 1em 5em;
+}
+
+#description{
+    text-align: center;
+}
+
+#contact-body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+    height: 50vh;
+    width: 30vw;
+    padding: 1rem;
+    border-style: none;
+    border-radius: 20px;
+}
+
+#form-title{
+    text-align: center;
+    margin-top: 3em;
+}
+
+input{
+    width: 90%;
+    margin-bottom: 3em;
+}
+
+textarea{
+    width: 90%;
+    height: 5rem;
+}
+
+button{
+    margin-top: 2em;
+    margin-left: 40%;
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: #ec0000;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+#details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#details img{
+    height: 30px;
+    margin-right: 1em;
+}
